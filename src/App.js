@@ -17,7 +17,10 @@ function App() {
     //No need to log 0 values
     if (event.target.value.getUint8(1) > 0) {
       setPulseLog((prevState) =>
-        prevState.concat(event.target.value.getUint8(1))
+        prevState.concat({
+          time: Date.now(),
+          rate: event.target.value.getUint8(1),
+        })
       );
     }
   };

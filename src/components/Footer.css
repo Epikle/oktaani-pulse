@@ -1,11 +1,22 @@
 footer {
   padding: 0.75rem;
   text-align: center;
-  align-self: center;
+  align-self: flex-end;
 }
 
 .copy {
-  align-self: flex-end;
   font-size: 0.75rem;
   opacity: 0.5;
+}
+
+.data-container {
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.chart-container {
+  height: 12rem;
+
 }
