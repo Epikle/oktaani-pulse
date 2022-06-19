@@ -1,0 +1,11 @@
+footer {
+  padding: 0.75rem;
+  text-align: center;
+  align-self: center;
+}
+
+.copy {
+  align-self: flex-end;
+  font-size: 0.75rem;
+  opacity: 0.5;
+}

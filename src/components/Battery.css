@@ -1,0 +1,38 @@
+.battery-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  height: max-content;
+}
+
+.battery-value {
+  font-size: 0.75rem;
+}
+
+.battery-icon {
+  border: 2px solid white;
+  width: 1.75rem;
+  height: 0.9rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.1rem;
+}
+
+.battery-icon::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(-2px - 0.2rem);
+  height: 0.5rem;
+  width: 0.2rem;
+  background-color: white;
+}
+
+.battery-icon-value {
+  --batt-val: 50%;
+  width: var(--batt-val);
+  height: 100%;
+  background-color: aliceblue;
+}
