@@ -1,3 +1,6 @@
-# oktaaniPULSE - Web Bluetooth API app
+# oktaaniPULSE
 
-Tracking pulse using Web Bluetooth API. Works with Polar A370.
+Just a little experimental pulse tracking app using React and Web Bluetooth API. The chart is made with Chart.js.
+Tested with Polar A370.
+
+![Preview of oktaaniPULSE](oktaani-pulse-preview.png)
